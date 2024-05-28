@@ -293,9 +293,9 @@ function informThisIsPrivateBot(ctx: TediCrossContext, next: () => void) {
 				// Send the reply
 				if (!ctx.TediCross.settings.telegram.suppressThisIsPrivateBotMessage) {
 					ctx.reply(
-						"This is an instance of a [TediCross](https://github.com/TediCross/TediCross) bot, " +
-							"bridging a chat in Telegram with one in Discord. " +
-							"If you wish to use TediCross yourself, please download and create an instance.",
+						"See [ACS](https://avantcloud.solutions) website " +
+							"Hello Human, " +
+							"If you wish to use this bot, please reach out.",
 						{ parse_mode: "Markdown" }
 					)
 						.then(msg =>

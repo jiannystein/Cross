@@ -397,9 +397,9 @@ export function setup(
 
 					message
 						.reply(
-							"This is an instance of a TediCross bot, bridging a chat in Telegram with one in Discord. " +
-								"If you wish to use TediCross yourself, please download and create an instance. " +
-								"See https://github.com/TediCross/TediCross"
+							"Hello Human, " +
+								"If you wish to use this bot yourself, " +
+								"See https://avantcloud.solutions"
 						)
 						// Delete it again after some time
 						.then(sleepOneMinute)
