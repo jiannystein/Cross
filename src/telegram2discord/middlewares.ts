@@ -293,9 +293,9 @@ function informThisIsPrivateBot(ctx: TediCrossContext, next: () => void) {
 				// Send the reply
 				if (!ctx.TediCross.settings.telegram.suppressThisIsPrivateBotMessage) {
 					ctx.reply(
-						"See [ACS](https://avantcloud.solutions) website " +
-							"Hello Human, " +
-							"If you wish to use this bot, please reach out.",
+						"Hello Human, " +
+							"If you wish to use this bot yourself, " + 
+							"See [ACS](https://avantcloud.solutions) page ",
 						{ parse_mode: "Markdown" }
 					)
 						.then(msg =>
