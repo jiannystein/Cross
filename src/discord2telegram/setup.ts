@@ -513,12 +513,12 @@ export function setup(
 		if (err.code === "ECONNRESET") {
 			// Lost connection to the discord servers
 			logger.warn(
-				"Lost connection to Discord's servers. The bot will resume when connection is reestablished, which should happen automatically. If it does not, please report this to the TediCross support channel"
+				"Lost connection to Discord's servers. The bot will resume when connection is reestablished, which should happen automatically. If it does not, please report this to the ACS support channel"
 			);
 		} else {
 			// Unknown error. Tell the user to tell the devs
 			logger.error(
-				"The Discord bot ran into an error. Please post the following error message in the TediCross support channel"
+				"The Discord bot ran into an error. Please post the following error message in the ACS support channel"
 			);
 			logger.error(err.toString());
 		}
